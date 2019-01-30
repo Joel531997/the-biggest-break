@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Nunito, sans-serif;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+section, footer {
+    padding: 25px;
+}
+
+.center {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Logo & Links */
+
+.logo-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+
+
+
+
+/* Navigation Bar */
+
+.header-lower {
+    background-color: #009BDC;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-item {
+    height: 18px;
+    padding: 15px;
+
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.header-nav-item:hover {
+    background-color: #008BC6;
+    text-decoration: none;
+}
+
+
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.grey-section {
+    background-color: #eeeeee;
+}
+
+.section1 {
+    height: 500px;
+    background-image: url(../img/forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.section-title {
+    padding: 25px;
+    padding-bottom: 0px;
+    font-family: Nunito, sans-serif;
+    font-size: 28px;
+}
+
+.section-content {
+    padding: 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-column-title {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.links-column a, .links-column span {
+    line-height: 1.5;
+    color: #111111;
+}
+
+.logo-big {
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 500px;
+}
