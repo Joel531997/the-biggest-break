@@ -3,7 +3,9 @@
 <head>
     <title>The Biggest Break</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -13,6 +15,24 @@
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
 
@@ -21,17 +41,17 @@
 <!-- Header -->
 <header>
     <div class="logo-bar">
-        <img src="img/logo-big.png" height="180px">
+        <img src="/img/logo-big.png" height="180px">
         <h1>The Biggest Break</h1>
     </div>
     <div class="nav-bar">
         <nav class="nav center">
-            <a href="index.html" class="nav-item">Home</a>
-            <a href="information.html" class="nav-item">Information</a>
+            <a href="/index.html" class="nav-item">Home</a>
+            <a href="/information.html" class="nav-item">Information</a>
             <a href="" class="nav-item">Partners</a>
-            <a href="register.html" class="nav-item">Register</a>
-            <a href="" class="nav-item" style="margin-left: auto;"><img src="img/twitter.svg" height="20px"></a>
-            <a href="" class="nav-item"><img src="img/facebook.svg" height="20px"></a>
+            <a href="/register.html" class="nav-item">Register</a>
+            <a href="" class="nav-item" style="margin-left: auto;"><img src="/img/facebook.svg" height="20px"></a>
+            <a href="" class="nav-item"><img src="/img/twitter.svg" height="20px"></a>
         </nav>
     </div>
 </header>
@@ -46,15 +66,68 @@
     <div class="section-text center">
         <p>To register a property's availability, please complete the form below, or call 97 572 349 for more information. Once you've registered your interest, one of our team will be in contact to discuss details.</p>
     </div>
-    <form class="section-form center">
-        <div class="form-row">
-            <span>Your Details</span>
+    <form>
+        <div class="section-form center">
+            <div class="form-column">
+                <div class="form-row">Your Name</div>
+                <div class="form-row">
+                    <div class="form-item"><input type="text" placeholder="First Name"></div>
+                    <div class="form-item"><input type="text" placeholder="Last Name"></div>
+                </div>
+                <div class="form-row">Contact Information</div>
+                <div class="form-row">
+                    <div class="form-item"><input type="email" required placeholder="Email Address"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item"><input type="tel" placeholder="Phone Number"></div>
+                    <div class="form-item"><input type="tel" placeholder="Mobile Number"></div>
+                </div>
+                <div class="form-row">Home Address</div>
+                <div class="form-row">
+                    <div class="form-item"><input type="text" placeholder="Address"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item"><input type="text" placeholder="City"></div>
+                    <div class="form-item"><input type="text" placeholder="State"></div>
+                    <div class="form-item"><input type="text" placeholder="Zip Code"></div>
+                </div>
+                <div class="form-row">How did you hear about The Biggest Break?</div>
+                <div class="form-row">
+                    <div class="form-item"><textarea rows="6"></textarea></div>
+                </div>
+            </div>
+            <div class="form-column">
+                <div class="form-row">Property Details</div>
+                <div class="form-row">
+                    <div class="form-item"><input type="text" placeholder="Property Name"></div>
+                    <div class="form-item"><input type="text" placeholder="Property Type"></div>
+                </div>
+                <div class="form-row">Property Address</div>
+                <div class="form-row">
+                    <div class="form-item w66"><input type="text" placeholder="Address"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item"><input type="text" placeholder="City"></div>
+                    <div class="form-item"><input type="text" placeholder="State"></div>
+                    <div class="form-item"><input type="text" placeholder="Zip Code"></div>
+                </div>
+                <div class="form-row">Website</div>
+                <div class="form-row">
+                    <div class="form-item"><input type="text" placeholder="www.example.com"></div>
+                </div>
+                <div class="form-row">
+                    <div>Are you a registered accommodation business?</div>
+                    <div class="form-item"><input type="radio" name="registered" value="yes">Yes</div>
+                    <div class="form-item"><input type="radio" name="registered" value="no">No</div>
+                </div>
+                <div class="form-row">Description of the accommodation you are donating.</div>
+                <div class="form-row">
+                    <div class="form-item"><textarea rows="6"></textarea></div>
+                </div>
+            </div>
         </div>
-        <div class="form-row">
-            <span class="w25">Your Name:</span>
-            <input class="w25">
-        </div>
-        <div class="form-row">
+        <div class="section-buttons center">
+            <input type="submit" class="form-button" value="Submit Form">
         </div>
     </form>
 </section>
@@ -66,22 +139,22 @@
 <section class="grey-section">
     <div class="section-links center">
         <div class="section-column">
-            <span class="links-column-title">Social Media</span>
+            <span class="column-title">Social Media</span>
             <a href="">Facebook</a>
             <a href="">Twitter</a>
         </div>
         <div class="section-column">
-            <span class="links-column-title">Contact Us</span>
+            <span class="column-title">Contact Us</span>
             <span>0456 789 123</span>
             <a href="">email@email.com.au</a>
         </div>
         <div class="section-column">
-            <span class="links-column-title">Get Involved</span>
+            <span class="column-title">Get Involved</span>
             <a href="">Information</a>
             <a href="">Register</a>
         </div>
         <div class="section-column">
-            <span class="links-column-title">Something</span>
+            <span class="column-title">Something</span>
             <a href="">Privacy</a>
         </div>
     </div>
