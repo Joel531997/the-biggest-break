@@ -33,7 +33,7 @@ section, footer {
     flex-direction:          column;
     align-items:             center;
     justify-content:         flex-end;
-    height:                  450px;
+    height:                  500px;
     background-image:        url(../img/forest.jpg);
     background-size:         cover;
     background-repeat:       no-repeat;
@@ -42,11 +42,13 @@ section, footer {
 
 h1 {
     margin:                  0px;
-    font-family:             Courgette, sans-serif;
+    font-family:             Lobster Two, sans-serif;
     font-size:               45pt;
     font-weight:             400;
+    font-style:              italic;
     color:                   #ffffff;
-    line-height:             2.5;
+    line-height:             2;
+    margin-bottom: 20px;
 }
 
 .nav-bar {
@@ -81,7 +83,7 @@ h1 {
 /*=======================================================*/
 
 .grey-section {
-    background-color: #eeeeee;
+    background-color: #f8f8f8;
 }
 
 .section-title {
@@ -124,6 +126,12 @@ h1 {
     flex-direction: column;
 }
 
+.section-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .column-title {
     margin-bottom: 5px;
     font-weight: 700;
@@ -132,18 +140,28 @@ h1 {
 .section-buttons {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.section-image {
+    display: flex;
+    justify-content: center;
+}
+
+.section-facebook {
+    padding: 25px;
 }
 
 .button-link {
-    padding: 15px;
+    margin: 5px;
+    padding: 10px;
     background-color: #134363;
-    border-radius: 7px;
+    border-radius: 3px;
     font-family: Nunito, sans-serif;
-    font-size: 14pt;
-    font-weight: 700;
+    font-size: 12pt;
+    font-weight: 600;
     color: #ffffff;
-    margin-left: 13px;
-    margin-right: 13px;
     margin-bottom: 25px;
     border: none;
     cursor: pointer;
@@ -218,6 +236,7 @@ textarea {
     border-radius: 3px;
     font-family: Nunito, sans-serif;
     font-size: 12pt;
+    font-weight: 600;
     color: #ffffff;
     margin-bottom: 25px;
     border: none;
