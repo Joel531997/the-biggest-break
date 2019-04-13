@@ -30,7 +30,9 @@ section, footer {
 
 .contact-header {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
     width: 100%;
 }
 
