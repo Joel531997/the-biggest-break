@@ -33,7 +33,8 @@ section, footer {
     flex-direction: column;
     align-items: flex-end;
     flex-grow: 1;
-    width: 100%;
+    margin-left: auto;
+    padding: 10px;
     color: #ffffff;
 }
 
