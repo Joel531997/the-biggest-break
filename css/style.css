@@ -30,7 +30,7 @@ section, footer {
 
 .contact-header {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .logo-bar {
