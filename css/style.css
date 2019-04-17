@@ -258,7 +258,10 @@ textarea {
     background-color: #0E324A;
 }
 
-
+.yesno {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
