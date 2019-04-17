@@ -260,8 +260,7 @@ textarea {
 
 .yesno {
     display: flex;
-    flex-direction: row;
-    flex-grow: 0;
+    height: 40px;
 }
 
 
