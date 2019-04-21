@@ -63,6 +63,7 @@ h1 {
 
 .nav-bar {
     background-color:        #134363;
+    flex-wrap: wrap;
 }
 
 .nav {
@@ -70,7 +71,7 @@ h1 {
 }
 
 .nav-item {
-    height:                  20px;
+    min-height:              20px;
     min-width:               20px;
     padding:                 15px;
     font-family:             Nunito, sans-serif;
